@@ -34,10 +34,10 @@ if(pregunTres == "a"){
     puntos = puntos -1;
 }
 
-let pregunCuatro = prompt("cual seria un boocle de 5 lineas? : A:For( i=0 ; i==3 ; i++)  B( i=0 ; i==3 ; i+) C:switch( i=0 ; i==3 ; i++)   [Puntos:"+puntos+"]").toLowerCase();
+let pregunCuatro = prompt("cual seria un boocle de 5 lineas? : A:For( i=0 ; i==5 ; i++)  B( i=0 ; i==3 ; i+) C:switch( i=0 ; i==5 ; i++)   [Puntos:"+puntos+"]").toLowerCase();
 if(pregunCuatro == "a"){
     puntos = puntos + 1 ;
-    for(i=1 ; i < 5 ; i++){
+    for(i=1 ; i < 6 ; i++){
     alert("---CORRECTO--- "+ i);
     }
 }else{
