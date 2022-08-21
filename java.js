@@ -16,6 +16,8 @@ if(pregunaUno == "a"){
     alert("incorrecto")
     puntos= puntos - 1;
 }
+if(puntos < 0 ){
+    puntos = 0;}
 let pregunDos = prompt("como se conoce la sentencia SI en JS: A:While  B:var C:If   [Puntos:"+puntos+"]").toLowerCase();
 if(pregunDos == "c"){
     puntos = puntos + 1 ;
@@ -24,7 +26,8 @@ if(pregunDos == "c"){
     alert("incorrecto")
     puntos = puntos -1;
 }
-
+if(puntos < 0 ){
+    puntos = 0;}
 let pregunTres = prompt("cual opcion esta mal tipeada : A:.tulowerCase()  B:var C:switch   [Puntos:"+puntos+"]").toLowerCase();
 if(pregunTres == "a"){
     puntos = puntos + 1 ;
@@ -33,7 +36,8 @@ if(pregunTres == "a"){
     alert("incorrecto")
     puntos = puntos -1;
 }
-
+if(puntos < 0 ){
+    puntos = 0;}
 let pregunCuatro = prompt("cual seria un boocle de 5 lineas? : A:For( i=0 ; i==5 ; i++)  B( i=0 ; i==3 ; i+) C:switch( i=0 ; i==5 ; i++)   [Puntos:"+puntos+"]").toLowerCase();
 if(pregunCuatro == "a"){
     puntos = puntos + 1 ;
@@ -46,7 +50,8 @@ if(pregunCuatro == "a"){
 
 
 }
-
+if(puntos < 0 ){
+    puntos = 0;}
 
 
 let valoracion = prompt(
