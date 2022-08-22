@@ -20,7 +20,7 @@ if (respuesta == "si") {
             puntos = puntos - 1;
         }
         if (puntos < 0) {
-            alert("no tenes ni 1 punto por lastima no te lo descuento")
+            alert("no tenes ni 1 punto por lastima no te lo descuento ఠ_ఠ")
             puntos = 0;
         }
         let pregunDos = prompt("como se conoce la sentencia SI en JS: |A:| While |B:| var |C:|If   [Puntos:" + puntos + "]").toLowerCase();
@@ -35,7 +35,7 @@ if (respuesta == "si") {
             puntos = puntos - 1;
         }
         if (puntos < 0) {
-            alert("no tenes ni 1 punto por lastima no te lo descuento")
+            alert("no tenes ni 1 punto por lastima no te lo descuento ఠ_ఠ")
             puntos = 0;
         }
         let pregunTres = prompt("cual opcion esta mal tipeada :|A:|.tulowerCase() |B:|var |C:|switch   [Puntos:" + puntos + "]").toLowerCase();
@@ -49,7 +49,7 @@ if (respuesta == "si") {
             puntos = puntos - 1;
         }
         if (puntos < 0) {
-            alert("no tenes ni 1 punto por lastima no te lo descuento");
+            alert("no tenes ni 1 punto por lastima no te lo descuento ఠ_ఠ ");
             puntos = 0;
         }
         let pregunCuatro = prompt("cual seria un boocle de 5 lineas? :|A:|For( i=0 ; i==5 ; i++) |B:|( i=0 ; i==3 ; i+) |C:|switch( i=0 ; i==5 ; i++)   [Puntos:" + puntos + "]").toLowerCase();
@@ -65,7 +65,7 @@ if (respuesta == "si") {
             puntos = puntos - 1;
         }
         if (puntos < 0) {
-            alert("no tenes ni 1 punto por lastima no te lo descuento")
+            alert("no tenes ni 1 punto por lastima no te lo descuento ఠ_ఠ")
             puntos = 0;
         }
 
